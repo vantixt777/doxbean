@@ -77,7 +77,30 @@ def scrape_proxies():
 "https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt",
 "https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks4.txt",
 "https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt",
-"https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks4.txt"
+"https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks4.txt""https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt",
+"https://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt",
+"https://raw.githubusercontent.com/Volodichev/proxy-list/main/http.txt",
+"https://raw.githubusercontent.com/proxy4parsing/proxy-list/main/http.txt",
+"https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
+"https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt",
+"https://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt",
+"https://raw.githubusercontent.com/ObcbO/getproxy/master/http.txt",
+"https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt",
+"https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/http.txt""https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt",
+"https://raw.githubusercontent.com/Volodichev/proxy-list/main/socks4.txt",
+"https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt",
+"https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt",
+"https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt",
+"https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks4.txt""https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
+"https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt",
+"https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt",
+"https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt",
+"https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt",
+"https://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks5.txt",
+"https://raw.githubusercontent.com/ProxyScraper/ProxyScraper/main/socks5.txt",
+"https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS5.txt",
+"https://raw.githubusercontent.com/saschazesiger/Free-Proxies/master/proxies/socks5.txt",
+"https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks5.txt"
     ]
     proxies = []
     for url in proxy_sources:
@@ -436,7 +459,7 @@ class MainWindow(QMainWindow):
 
         self.progress_bar.setValue(0)
         self.log_output.clear()
-        self.log_message(" Launching DOXBEAN Simulation...")
+        self.log_message(" Launching DOXBEAN ...")
 
 
         self.attack_thread = AttackThread(url, num_requests, attack_mode, use_proxy)
@@ -460,7 +483,7 @@ class MainWindow(QMainWindow):
         self.mode_selector.setEnabled(True)
         self.use_proxy.setEnabled(True)
         self.progress_bar.setValue(0)
-        self.log_message("DOXBEAN Simulation stopped.")
+        self.log_message("DOXBEAN stopped.")
 
 
 
